@@ -12,7 +12,7 @@ func main() {
 	GOPATH := os.Getenv("GOPATH")
 	Project := "/src/github.com/haccer/subjack/"
 	configFile := "fingerprints.json"
-	defaultConfig := GOPATH + Project + configFile
+	defaultConfig := "https://raw.githubusercontent.com/haccer/subjack/master/fingerprints.json"
 
 	o := subjack.Options{}
 
